@@ -10,6 +10,14 @@
 brew tap minorcell/dilidili-homebrew https://github.com/minorcell/dilidili-homebrew
 ```
 
+Homebrew 对第三方 tap 有安全校验，首次使用前需要信任：
+
+```bash
+brew trust minorcell/dilidili-homebrew
+```
+
+然后安装：
+
 ```bash
 brew install --cask dilidili
 ```
